@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head><meta charset="UTF-8"><title>Cài đặt AI Dock</title></head>
-<body style="text-align:center; padding-top:100px; font-family:sans-serif;">
-    <h1>🎲 Trang Cài đặt AI Workstation</h1>
-    <p>Nếu bạn thấy nút này, nghĩa là trang web đã hoạt động!</p>
-    <a href="javascript:alert('Thanh cong!')" style="display:inline-block; padding:20px 40px; background:green; color:white; border-radius:10px; text-decoration:none; font-weight:bold;">
-        THỬ NGHIỆM: KÉO TÔI VÀO BOOKMARK
+<body style="text-align:center; padding-top:100px; font-family:sans-serif; background:#1a1a1a; color:white;">
+    <h1>🎲 Cài đặt AI Workstation</h1>
+    <p style="color:#aaa;">Kéo nút màu xanh dưới đây thả vào thanh dấu trang (Bookmarks Bar):</p>
+
+    <!-- Nút chứa mã của bạn -->
+    <a href="javascript:(function()%7B(function%20()%20%7B%0A%20%20%20%20if%20(window.self%20!%3D%3D%20window.top)%20return%3B%0A%20%20%20%20const%20HOST_ID%20%3D%20%22ws-pro-extension-host%22%3B%0A%20%20%20%20if%20(document.getElementById(HOST_ID))%20return%3B%0A%20%20%20%20const%20host%20%3D%20document.createElement(%22div%22)%3B%0A%20%20%20%20host.id%20%3D%20HOST_ID%3B%0A%20%20%20%20host.style.cssText%20%3D%20%22position%3Afixed%3Btop%3A0%3Bleft%3A0%3Bz-index%3A2147483647%3Bwidth%3A100%25%3Bheight%3A0%3Boverflow%3Avisible%22%3B%0A%20%20%20%20const%20shadow%20%3D%20host.attachShadow(%7B%20mode%3A%20%22open%22%20%7D)%3B%0A%20%20%20%20document.documentElement.appendChild(host)%3B%0A%20%20%20%20alert('AI%20Dock%20da%20duoc%20kich%20hoat!');%0A%7D)()%7D)()" 
+       style="display:inline-block; padding:20px 40px; background:#238636; color:white; text-decoration:none; border-radius:10px; font-weight:bold; font-size:22px; cursor:move; box-shadow:0 0 20px #238636;">
+        🚀 KÉO TÔI ĐỂ CÀI ĐẶT
     </a>
+
+    <p style="margin-top:40px; font-size:14px; color:#666;">Mở một trang web bất kỳ và nhấn vào dấu trang sau khi kéo xong.</p>
 </body>
 </html>
